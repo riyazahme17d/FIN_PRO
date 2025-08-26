@@ -1,0 +1,17 @@
+Here's a summary of the reconciliation:
+
+**Summary Table:**
+
+| Category             | Count |
+|----------------------|-------|
+| Total ERP Records    | 5     |
+| Total Bank Records   | 5     |
+| Missing in ERP       | 0     |
+| Missing in Bank      | 0     |
+| Amount Mismatches    | 1     |
+| Exact Matches        | 4     |
+
+
+**Reconciliation Rate:** 80.00%
+
+The previous calculation was incorrect because it didn't account for the fact that some transactions are matched exactly.  The correct calculation is (Number of exact matches / Total number of transactions).  In this case, there are 5 transactions in each dataset, and 4 exact matches.  Therefore, the reconciliation rate is (4/5) * 100 = 80%.
